@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Meteo</title>
+   
+    <link rel="stylesheet" type="text/css" href="shown.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    
+</head>
+<body >
+    <div id="nav" > 
+        
+    </div> 
+<main id="mainid"> 
+    <form  id="meteoform">
+        <div class="container"> 
+            <input type="text" id="userinput" placeholder="Tapez Votre Ville " style=" padding:10px;
+            border-radius:50px; box-shadow: inset; border:none ; border-bottom:2px solid transparent; text-align:center ; color: aliceblue; font-size: 50px;"> 
+            
+        </div>
+        <br>
+        <div id="userclick">
+            <button style="color: white;" type="submit" class="button" value="Search " style="font-size: 50px; "> Afficher Details de  Météo  </button>
+            <br>
+            <span style="color: black; font-size: 30px;" id="date_heure"></span>
+           
+        </div>
+        <center> 
+
+        <div id="showcity" style="font-size: 18px;">
+        
+            <h1 id="cityname">  </h1>
+            <div > 
+            <img id="img" class="myicon" style="width: 120px;" >
+            </div>
+            <h2 id="description" ></h2>
+            <h1 id="demo">  </h1>  
+            <h3 id="Longtitude" ></h3   >
+            <h2 id="Latitude" ></h2>
+   
+       </div>
+    </center>
+    </form>
+
+    
+
+   
+</main>
+
+<script type="text/javascript"  src="script.js"></script>
+<script type="text/javascript">window.onload = date_heure('date_heure');</script>
+
+            
+      
+          
+</body>
+</html>

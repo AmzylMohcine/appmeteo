@@ -1,0 +1,68 @@
+body {
+  background-image: url('https://i.pinimg.com/originals/e8/9b/f6/e89bf6cf6cad8ca28985a98e0a59f5df.gif');
+  font-family: 'trebuchet MS';
+  text-align: center;
+  color: #fff;
+
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'trebuchet MS';
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 5) ;
+    background-color: white;
+    color: black;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    background-position: center;
+    background-size: cover ;
+    
+    
+
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border-radius:1000px;
+    background-color: transparent;
+    color: black;
+    font-family: 'Verdana', Tahoma, Geneva, Verdana, sans-serif;
+    border : none; 
+    border-bottom: 3px solid rgba(136, 17, 17, 0.844);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 5) ;
+    font-size: 40px;
+
+}
+input {
+    width: 100%;
+    height: 100%;
+    background-color : transparent;
+    border-radius:20px;
+  
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 5) ;
+   
+}
+#userinput.placeholder {
+    text-align: center;
+}
+
+#showcity { 
+    width: 200px;
+
+    font-weight: 900; 
+    color: orange;
+    font-family: 'trebuchet MS';
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 5) ;
+    background-color: transparent;
+
+}
+
+.myicon {
+   font-size: 100px;
+    
+}
+footer{ 
+    position: absolute; bottom: 0;
+}
+
